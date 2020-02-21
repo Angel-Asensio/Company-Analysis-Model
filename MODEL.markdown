@@ -211,7 +211,7 @@ The discount rate is calculated based on the following equation:
 
     Discount rate = Cost of Equity = Risk Free Rate + (Levered Beta \* Equity Risk Premium)
 
-The risk-free rate is the 10-year government bond rate and the equity risk premium is 10% less the risk-free rate. Beta is a measure of volatility, or risk, in comparison to the market as a whole.
+The risk-free rate is the 10-year government bond rate and the equity risk premium sourced from our friend [Aswath Damodaran](http://pages.stern.nyu.edu/~adamodar/). Beta is a measure of volatility, or risk, in comparison to the market as a whole.
 
 A bottom-up beta is calculated for each company by using it&#39;s industry unlevered beta (removes the effect of debt and varying capital structure) and levering it up using the company&#39;s own debt level to take into account its own capital structure. For companies outside Canada and The United States, we use the North American industry average unlevered beta. The bottom-up beta cannot be lower than 0.8 (this is the lowest practical beta for a stable firm, according to Damodaran) or greater than 2.
 
@@ -748,7 +748,7 @@ company is able to meet its debt obligations using purely its cash flow
 for the year from its operational activities.
 
 Debt held the company is compared to Operating Cash Flows. If Operating 
-Cash Flows are \> Total Debt the stock is scored one point.
+Cash Flows are \> 20% of Total Debt the stock is scored one point.
 
 ##### CHECK \#6: Are earnings greater than 5x the interest on debt (if company pays interest at all)?
 
@@ -772,11 +772,11 @@ The following data points are used in addition to the previous for this analysis
 | Levered Free Cash Flow annual growth rate | Linear regression over the past 3 years |
 | Cash & short-term investments | Last reported |
 
-##### CHECK #5: Does cash and short-term investments cover stable cash burn (negative free cash flow) for more than 3 years? 
-This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should the rate remain stable. If coverage is sufficient, the stock is scored one point.
+##### CHECK #5: Does cash and short-term investments cover stable cash burn (negative free cash flow) for more than 1 year? 
+This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next year, should the rate remain stable. If coverage is sufficient, the stock is scored one point.
 
-##### CHECK #6:  Does cash and short-term investments cover growing cash burn (negative free cash flow) for more than 3 years?
-This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should rate grow or shrink at the same rate annually as it had in the past three years. If coverage is sufficient, the stock is scored one point.
+##### CHECK #6:  Does cash and short-term investments cover growing cash burn (negative free cash flow) for more than 1 year?
+This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next year, should rate grow or shrink at the same rate annually as it had in the past three years. If coverage is sufficient, the stock is scored one point.
 
 
 ### Financial Institutions
